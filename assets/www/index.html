@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Aplicativo da Web jQuery Mobile</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.3.1.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.3.1.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile-1.3.1.min.css" rel="stylesheet" type="text/css"/>
+</head> 
+<body> 
+
+<div data-role="page" id="page1">
+	<div data-role="header">
+		<h1>Menu</h1>
+        <a href="#popupBasic" data-icon="gear" class="ui-btn-right" data-theme="e" data-rel="popup" data-position-to="window">!</a>
+        <div data-role="popup" id="popupBasic">
+            <p>Informações do App<p>
+        </div>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2">Início</a></li>
+            <li><a href="#page3">Equipe</a></li>
+			<li><a href="#page4">Localização</a></li>
+            <li><a href="#login">Administrativo</a></li>
+		</ul>	
+        <br>
+        <br>
+        <div style="text-align: center; margin:0 auto;">
+            <img src="img/logop.png">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4>Rodapé da página</h4>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Início</h1>
+        <a href="#page1" data-icon="arrow-l" class="ui-btn-left" data-theme="c" data-transition="slide">Voltar</a>
+	</div>
+	<div data-role="content">	
+		<p style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O escritório <strong>PAIM ALMEIDA SOBRAL E FELIZOLA ADVOGADOS ASSOCIADOS</strong><strong> </strong>foi fundado em 1955 pelo Advogado &nbsp;Ascânio Ferrario de Almeida, em 1978 ingressou o seu filho Raymundo Almeida Neto, profissional de solida formação acadêmica e com vasta experiência na prática da advocacia, alcançada com a atuação em bancas de grande porte. No ano de 1996 ingressou o advogado Eliziário Silveira Sobral. Em 2008 ingressaram os advogados José Carlos Felizola e Victor Paim, e, desde então, <strong>o escritório decidiu inovar na área jurídica seguindo a tendência mundial da redescoberta do foco no cliente.</strong></p>
+		<p style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; É importante ressaltar que esta inovação vem atrelada a intenso planejamento, forte presença de tecnologia de informação e organização empresarial, com o escopo de racionalizar as ações e minimizar os custos operacionais.</p>
+		<p style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O PASF possui sede à Rua Riachuelo n° 707, Bairro São José, na cidade de Aracaju, Estado de Sergipe, contando com infra-estrutura de biblioteca, sala de reunião, salas individualizadas dos advogados e rede completa de computadores com equipamentos e tecnologia de ponta, de forma a <strong>proporcionar da maneira mais célere aos clientes todas as informações, conforto no atendimento personalizado e diferenciado,</strong> eficiência nos trabalhos e manter a excelência na prestação de serviços.</p>
+		<p style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Com longa tradição no mercado, Paim Almeida Sobral e Felizola Advogados atende nas mais diversas áreas do direito empresarial e da consultoria pública. Das rotinas mais simples às questões mais complexas, o escritório atua na <strong>prestação de serviços jurídicos de maneira rápida, criativa e segura</strong>, focado sempre em buscar a melhor solução às necessidades dos seus clientes.</p>
+		<p style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tem atuação em todo o Estado de Sergipe, buscando atender ainda interesses de empresas e escritórios, disponibilizando <strong>serviços de advocacia de apoio na região</strong>, <strong>valorizando os princípios da ética e da moral</strong>.&nbsp;<span style="text-align: right;">Os trabalhos são desenvolvidos setorialmente, em todas as áreas do direito, visando atender o cliente da forma mais célere e eficaz possível, tudo com qualificação específica na área de resolução do caso vertente.</span></p>
+		<p style="text-align: justify;">&nbsp; &nbsp; &nbsp; A união entre as principais qualidades do passado e as inovações tecnológicas do presente está materializada em um Escritório de vanguarda, com administração inovadora, assessoria versátil e eficiente. Isso transforma o Paim Almeida Sobral e Felizola&nbsp; em uma excelente opção para a prestação de serviços na área do Direito.</p>
+		<p style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Diante de sua tendência no seguimento empresarial é associado da entidade que congrega profissionais atuantes no mesmo seguimento, a exemplo CESA – Centro de Estudos das Sociedade de Advogados.</p>
+	</div>
+	<div data-role="footer">
+		<h4>Rodapé da página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+    	<a href="#page1" data-icon="arrow-l" class="ui-btn-left" data-theme="c" data-transition="slide">Voltar</a>
+		<h1>Equipe</h1>
+	</div>
+	<div data-role="content">	
+		<p><strong>Nossa equipe é composta pelos seguintes Advogados:</strong></p>
+			<p>Victor Paim Ferrario de Almeida</p>
+			<p>Elyziario Silveira Sobral</p>
+			<p>José Carlos Felizola Soares Filho</p>
+			<p>Christiano Dias Lebre</p>
+			<p>Daniela Matos Coutinho</p>		
+	</div>
+	<div data-role="footer">
+		<h4>Rodapé da página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+    	<a href="#page1" data-icon="arrow-l" class="ui-btn-left" data-theme="c" data-transition="slide">Voltar</a>
+		<h1>Localização</h1>
+	</div>
+	<div data-role="content">	
+        <p>Rua Riachuelo, nº 707.  Bairro São José  - CEP:49015-160 –  Aracaju-SE.</p>	
+        <p>Entre as ruas Arauá e Santa Luzia</p>
+        <a onClick="loadURL('geo:-10.92065,-37.052089')" data-role="button">Ver Mapa</a>
+        <div style="text-align: center; margin:0 auto;">
+            <img src="img/pasf-199x300.jpg">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4>Rodapé da página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="login">
+	<div data-role="header">
+    	<a href="#page1" data-icon="arrow-l" class="ui-btn-left" data-theme="c" data-transition="slide">Voltar</a>
+		<h1>Login</h1>
+	</div>
+	<div data-role="content">	
+		<table>
+	    		<tr>
+	    			<td><h3>Login</h3></td>
+	    			<td><input type="text" id="loginAdm" autofocus></td>
+	    		</tr>
+	    		<tr>
+	    			<td><h3>Senha</h3></td>
+	    			<td><input type="password" id="senhaAdm"></td>
+	    		</tr>
+	    	</table>	
+			<input type="button" value="Entrar" onclick="menuAdmin()">		
+	</div>
+	<div data-role="footer">
+		<h4>Rodapé da página</h4>
+	</div>
+</div>
+
+<!--Menu-->
+<div data-role="page" id="menu">
+    <div data-role="header">
+        <input type="button" value="Sair" onclick="logoff()" data-icon="arrow-l" class="ui-btn-left" data-theme="e">
+        <h1>Menu Adm</h1>
+    </div><!-- /header -->
+    <div data-role="content">
+        <input type="hidden" id="idUsuario">
+        <input type="hidden" id="nome">
+        <a href="#cadastrar" data-role="button" data-transition="pop">Cadastrar</a>
+        <a href="#listar" data-role="button" data-transition="pop">Listar</a>
+        <input type="button" value="Alterar conta" onclick="alterarUsuario()">
+    </div><!-- /content -->
+    <div data-role="footer">
+        <h4>Feito por Edjenal</h4>
+    </div><!-- /footer -->
+</div><!-- /End page -->
+
+<!--Cadastrar-->
+<div data-role="page" id="cadastrar">
+    <div data-role="header">
+	    <a href="#menu" data-icon="arrow-l" class="ui-btn-left" data-theme="c" data-transition="slide">Voltar</a>
+        <h1>Cadastrar</h1>
+    </div><!-- /header -->
+    <div data-role="content">
+        <h3>Descrição</h3>
+        <input type="text" id="descricaoCad" autofocus>
+        <h3>Link</h3>
+        <input type="text" id="linkCad" >
+        <input type="button" value="Salvar" onclick="salvarLinkNew()">
+    </div><!-- /content -->
+    <div data-role="footer">
+        <h4>Feito por Edjenal</h4>
+    </div><!-- /footer -->
+</div><!-- /End page -->
+
+<!--Listar-->
+<div data-role="page" id="listar">
+    <div data-role="header">
+    	<a href="#menu" data-icon="arrow-l" class="ui-btn-left" data-theme="c">Voltar</a>
+        <h1>Listar</h1>
+    </div><!-- /header -->
+    <div data-role="content" >
+        <h3>Descrição</h3>
+        <input type="text" id="descricaoFind" autofocus>
+        <input type="button" value="Buscar" onclick="ListarPag()">
+        <h1></h1>
+        <ul data-role="listview" id="lista">
+        </ul>
+    </div><!-- /content -->
+    <div data-role="footer">
+        <h4>Feito por Edjenal</h4>
+    </div><!-- /footer -->
+</div><!-- /End page -->
+
+<div data-role="page" id="detalhe">
+    <div data-role="header">
+	    <a data-icon="arrow-l" class="ui-btn-left" data-theme="c" onclick="ListarPag()">Voltar</a>
+        <h1>Detalhe</h1>
+    </div><!-- /header -->
+    <div data-role="content">
+        <div id="detalheDiv">
+        
+        </div>
+    </div><!-- /content -->
+    <div data-role="footer">
+        <h4>Feito por Edjenal</h4>
+    </div><!-- /footer -->
+</div><!-- /End page -->
+
+<div data-role="page" id="editarLink">
+    <div data-role="header">
+	    <a href="#detalhe" data-icon="arrow-l" class="ui-btn-left" data-theme="c">Voltar</a>
+        <h1>Editar</h1>
+    </div><!-- /header -->
+    <div data-role="content">
+        <h3>Descrição</h3>
+        <input type="hidden" id="idLink">
+        <input type="text" id="descricaoEditarLink" autofocus>
+        <h3>Link</h3>
+        <input type="text" id="linkEditarLink" >
+        <input type="button" value="Salvar" onclick="updateLink()">
+    </div><!-- /content -->
+    <div data-role="footer">
+        <h4>Feito por Edjenal</h4>
+    </div><!-- /footer -->
+</div><!-- /End page -->
+
+
+<div data-role="page" id="usuario">
+    <div data-role="header">
+    	<a href="#menu" data-icon="arrow-l" class="ui-btn-left" data-theme="c">Voltar</a>
+        <h1>Usuario</h1>
+    </div><!-- /header -->
+    <div data-role="content" align="center">
+        <table>
+            <tr>
+                <td><h3>Login</h3></td>
+                <td><input type="text" id="loginUser" autofocus></td>
+            </tr>
+            <tr>
+                <td><h3>Senha</h3></td>
+                <td><input type="text" id="senhaUser"></td>
+            </tr>
+        </table>	
+        <input type="button" value="Salvar" onclick="salarModificacaoUser()">
+    </div><!-- /content -->
+    <div data-role="footer">
+        <h4>Feito por Edjenal</h4>
+    </div><!-- /footer -->
+</div><!-- /End page -->
+
+<script type="text/javascript" charset="UTF-8" src="cordova.js"></script>
+<script src="jquery-mobile/jquery-1.10.1.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.3.1.min.js" type="text/javascript"></script>
+<script src="funcoes.js" type="application/javascript"></script>
+</body>
+</html>
